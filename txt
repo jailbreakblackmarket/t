@@ -1,1 +1,6 @@
-test
+df -h
+sudo chmod 1777 /tmp
+rm -f ~/.Xauthority ~/.ICEauthority
+sudo apt update
+sudo apt install --reinstall xfce4-session xfce4 xfdesktop4 xfwm4 dbus-x11 xauth
+sudo systemctl restart lightdm
