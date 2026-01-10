@@ -1,1 +1,3 @@
-sudo grep -nE "^\((EE)\)" /var/log/Xorg.0.log
+sudo groupadd -f nopasswdlogin
+sudo usermod -aG nopasswdlogin rebsijo
+sudo systemctl restart lightdm
