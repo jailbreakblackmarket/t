@@ -1,1 +1,1 @@
-sudo -iu rebsijo tail -n 200 ~/.xsession-errors 2>/dev/null || echo "no ~/.xsession-errors"
+sudo grep -nE "^\((EE)\)" /var/log/Xorg.0.log
