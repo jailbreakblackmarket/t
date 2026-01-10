@@ -1,3 +1,1 @@
-sudo apt update
-sudo apt install --reinstall -y lightdm
-sudo systemctl enable --now lightdm
+sudo journalctl -u lightdm -b --no-pager -n 200
