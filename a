@@ -1,0 +1,807 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "146.0.1"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "146.0.1"
+    },
+    "pages": [
+      {
+        "id": "page_1",
+        "pageTimings": {
+          "onContentLoad": 446,
+          "onLoad": 1407
+        },
+        "startedDateTime": "2026-01-10T23:26:56.105+01:00",
+        "title": "https://demo.betby.com/sportsbook/tile/soccer/england/premier-league/sunderland-afc-crystal-palace-2619274599749259303"
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2026-01-10T23:26:56.105+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://demoapi.betby.com/api/v4/live/brand/1653815133341880320/en/0",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "demoapi.betby.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://demo.betby.com/"
+            },
+            {
+              "name": "Origin",
+              "value": "https://demo.betby.com"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            },
+            {
+              "name": "Priority",
+              "value": "u=4"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 442
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; UTF-8"
+            },
+            {
+              "name": "server",
+              "value": "openresty"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=1"
+            },
+            {
+              "name": "expires",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "x-epoch",
+              "value": "1766218690153"
+            },
+            {
+              "name": "x-version",
+              "value": "1768084010935"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 8662e3c152f0b241b5d273e9b0c8f9fc.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "AMS1-P2"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "l1lTX5DAhjdv2agZSsurDBOJ8wQwD5V5rQBVTiBe_Y3xQwoqqlFHLQ=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json",
+            "size": 1621,
+            "text": "{\"epoch\":1766218690153,\"version\":1768084010935,\"top_events_versions\":[1768084010935],\"rest_events_versions\":[1768084010936],\"generated\":1768084015222,\"status\":{\"b568fd59\":4175,\"14c0b29f\":818,\"e9dd307f\":8221,\"8dc9e325\":4182,\"4182dfd0\":1222,\"93bab8e\":2222,\"3fede15c\":1656,\"18868fe2\":60222,\"146df1bd\":1090,\"f4b818a3\":881,\"4c419d2b\":4189,\"c68e7a21\":1637,\"d68e4469\":1081,\"a649f3c4\":3592,\"c05f2839\":1904,\"13ad7686\":1642,\"b89245be\":2608,\"bfff81a7\":3660,\"b58f4574\":3328,\"427dad34\":4382,\"7d0d3722\":1126,\"cf957528\":1914,\"23427dea\":1066,\"b1894ab7\":3708,\"48ead1ca\":973,\"bcdeb172\":2114,\"50e035a8\":1995,\"208ac127\":768,\"d2c2b0a5\":779,\"64aa4610\":7715,\"35b93b7a\":782,\"21365726\":2320,\"bf52c285\":2673,\"b83f069c\":3644,\"563167b0\":772,\"fda317aa\":2758,\"faced3b3\":4180,\"fca8278d\":1222,\"9aa41974\":4468,\"9312555f\":4208,\"63c78209\":3166,\"282d582f\":774,\"357a9da2\":4378,\"8d64a007\":1895,\"38802545\":2609,\"abf9b02c\":3149,\"3b46adbd\":3658,\"27e7053e\":1772,\"2b0c68fa\":2160,\"c9e96412\":1082,\"a18974ff\":911,\"b75818af\":2763,\"26f6d01d\":2135,\"eda329e2\":3644,\"a8927bf6\":2579,\"c8f8b131\":2928,\"d97b8e5d\":5222,\"174c4b9e\":2104,\"b2053940\":1645,\"947f9146\":4471,\"a5c58033\":1683,\"cbd981e4\":2179,\"dcfe80ba\":1093,\"a7c1270b\":923,\"64070532\":2199,\"ac73cc18\":3686,\"95cfc11e\":1825,\"5f2a68b9\":3905,\"382d6667\":1637,\"4510692d\":2673,\"578df1b1\":2001,\"265b933f\":3668,\"515ca3a9\":4230,\"3f40a27e\":3647,\"cf38360a\":1083,\"d623074b\":2219,\"184f04a\":2917,\"dc193897\":2148,\"569c2492\":3906,\"321759bb\":2764,\"c50209d6\":1904,\"636ac12b\":4379,\"8a09641e\":2201,\"32f0e196\":1786,\"d14ec352\":2193,\"ab1e0801\":4176,\"c855f213\":3901,\"9cdc172d\":3858,\"484792e8\":2151,\"d76c0fc\":1490,\"beee5484\":2788,\"8aa4273c\":4190}}"
+          },
+          "redirectURL": "",
+          "headersSize": 574,
+          "bodySize": 1947
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 54,
+          "receive": 0
+        },
+        "time": 54,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:9000:2394:7400:4:5e63:1c80:93a1",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2026-01-10T23:26:56.108+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://demoapi.betby.com/api/v4/prematch/brand/1653815133341880320/en/0",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "demoapi.betby.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://demo.betby.com/"
+            },
+            {
+              "name": "Origin",
+              "value": "https://demo.betby.com"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            },
+            {
+              "name": "Priority",
+              "value": "u=4"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 446
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; UTF-8"
+            },
+            {
+              "name": "server",
+              "value": "openresty"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=1"
+            },
+            {
+              "name": "expires",
+              "value": "Sat, 10 Jan 2026 22:26:57 GMT"
+            },
+            {
+              "name": "x-epoch",
+              "value": "1767872454973"
+            },
+            {
+              "name": "x-version",
+              "value": "1768083974393"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 8662e3c152f0b241b5d273e9b0c8f9fc.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "AMS1-P2"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "smrFFpgCEvAkhId8RCYqn2loxj-WS3z-WLjikTAnPX1_bxxuARoAyg=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json",
+            "size": 1440,
+            "text": "{\"epoch\":1767872454973,\"version\":1768083974393,\"top_events_versions\":[1768083974393],\"rest_events_versions\":[1768083974394,1768083974395,1768083974396,1768083974397,1768083974398,1768083974399],\"generated\":1768084016075,\"status\":{\"b79acebc\":490,\"c6f69642\":419,\"e668a2e4\":2075,\"79fa2c8f\":2211,\"7721a4bd\":934,\"88b1acf4\":3057,\"29fe5b1f\":410,\"8f3bd0c0\":520,\"82c16827\":509,\"f5c658b1\":3054,\"5beccc5\":765,\"77308e7c\":1686,\"e1c0693a\":6528,\"c19b525b\":1626,\"2b0bc7e8\":5636,\"c7f03a33\":4408,\"5ef96b89\":4024,\"2d308dc\":3030,\"bbb4da79\":6761,\"51244fca\":487,\"e9dd307f\":9074,\"3ba6ba82\":7542,\"82a38ff6\":4052,\"b69c62cd\":1880,\"b1f1a6d4\":7223,\"6ba2cd12\":6219,\"678cd9d7\":4414,\"2e939f06\":417,\"f83ce056\":2208,\"9cb79d7f\":2498,\"85acac3e\":3006,\"62148139\":2501,\"7e97e896\":5644,\"f7843f09\":1075,\"b0f70aa5\":488,\"26237f5c\":2516,\"717f74ab\":7039,\"1632817a\":1066,\"d5a8dbae\":484,\"fce0816\":5829,\"2f953377\":1058,\"589203e1\":2217,\"8982b8fb\":1648,\"e127d117\":7037,\"22bd8bc3\":6538,\"4517c63f\":6204,\"5c0cf77e\":1627,\"193da56a\":3376,\"ccb3eaef\":1489,\"95cfc11e\":2678,\"8447422\":5641,\"885614d9\":981,\"782e80ad\":1075,\"f92ff824\":2957,\"48681207\":973,\"1513b1af\":3037,\"3ccb7e9b\":7065,\"75d4384a\":3388,\"b7656e30\":978,\"7f4344b4\":5642,\"a5c22f21\":5057,\"98fb69b3\":5644,\"d2c51fb7\":6549,\"184f04a\":3770,\"678443d\":5069,\"1bc8399d\":511,\"26942b\":7627,\"f9e84c74\":3156,\"5994af90\":4227,\"52d77f4c\":4960,\"e0f37d35\":3374,\"9cdc172d\":2708,\"c09dfe2a\":2227,\"4bcc4e0d\":3390,\"55babb55\":6426,\"8eef7ce2\":6529,\"25d04fda\":5639}}"
+          },
+          "redirectURL": "",
+          "headersSize": 574,
+          "bodySize": 1817
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 56,
+          "receive": 0
+        },
+        "time": 56,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:9000:2394:7400:4:5e63:1c80:93a1",
+        "connection": "443",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2026-01-10T23:26:56.537+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://demoapi.betby.com/api/v4/live/brand/1653815133341880320/en/0",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "demoapi.betby.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://demo.betby.com/"
+            },
+            {
+              "name": "Origin",
+              "value": "https://demo.betby.com"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; UTF-8"
+            },
+            {
+              "name": "server",
+              "value": "openresty"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=1"
+            },
+            {
+              "name": "expires",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "x-epoch",
+              "value": "1766218690153"
+            },
+            {
+              "name": "x-version",
+              "value": "1768084010935"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 8662e3c152f0b241b5d273e9b0c8f9fc.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "AMS1-P2"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "l1lTX5DAhjdv2agZSsurDBOJ8wQwD5V5rQBVTiBe_Y3xQwoqqlFHLQ=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json",
+            "size": 1621,
+            "text": "{\"epoch\":1766218690153,\"version\":1768084010935,\"top_events_versions\":[1768084010935],\"rest_events_versions\":[1768084010936],\"generated\":1768084015222,\"status\":{\"b568fd59\":4175,\"14c0b29f\":818,\"e9dd307f\":8221,\"8dc9e325\":4182,\"4182dfd0\":1222,\"93bab8e\":2222,\"3fede15c\":1656,\"18868fe2\":60222,\"146df1bd\":1090,\"f4b818a3\":881,\"4c419d2b\":4189,\"c68e7a21\":1637,\"d68e4469\":1081,\"a649f3c4\":3592,\"c05f2839\":1904,\"13ad7686\":1642,\"b89245be\":2608,\"bfff81a7\":3660,\"b58f4574\":3328,\"427dad34\":4382,\"7d0d3722\":1126,\"cf957528\":1914,\"23427dea\":1066,\"b1894ab7\":3708,\"48ead1ca\":973,\"bcdeb172\":2114,\"50e035a8\":1995,\"208ac127\":768,\"d2c2b0a5\":779,\"64aa4610\":7715,\"35b93b7a\":782,\"21365726\":2320,\"bf52c285\":2673,\"b83f069c\":3644,\"563167b0\":772,\"fda317aa\":2758,\"faced3b3\":4180,\"fca8278d\":1222,\"9aa41974\":4468,\"9312555f\":4208,\"63c78209\":3166,\"282d582f\":774,\"357a9da2\":4378,\"8d64a007\":1895,\"38802545\":2609,\"abf9b02c\":3149,\"3b46adbd\":3658,\"27e7053e\":1772,\"2b0c68fa\":2160,\"c9e96412\":1082,\"a18974ff\":911,\"b75818af\":2763,\"26f6d01d\":2135,\"eda329e2\":3644,\"a8927bf6\":2579,\"c8f8b131\":2928,\"d97b8e5d\":5222,\"174c4b9e\":2104,\"b2053940\":1645,\"947f9146\":4471,\"a5c58033\":1683,\"cbd981e4\":2179,\"dcfe80ba\":1093,\"a7c1270b\":923,\"64070532\":2199,\"ac73cc18\":3686,\"95cfc11e\":1825,\"5f2a68b9\":3905,\"382d6667\":1637,\"4510692d\":2673,\"578df1b1\":2001,\"265b933f\":3668,\"515ca3a9\":4230,\"3f40a27e\":3647,\"cf38360a\":1083,\"d623074b\":2219,\"184f04a\":2917,\"dc193897\":2148,\"569c2492\":3906,\"321759bb\":2764,\"c50209d6\":1904,\"636ac12b\":4379,\"8a09641e\":2201,\"32f0e196\":1786,\"d14ec352\":2193,\"ab1e0801\":4176,\"c855f213\":3901,\"9cdc172d\":3858,\"484792e8\":2151,\"d76c0fc\":1490,\"beee5484\":2788,\"8aa4273c\":4190}}"
+          },
+          "redirectURL": "",
+          "headersSize": 0,
+          "bodySize": 1373
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "ssl": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 0,
+          "receive": 0
+        },
+        "time": 0,
+        "_securityState": "secure",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2026-01-10T23:26:56.540+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://demoapi.betby.com/api/v4/prematch/brand/1653815133341880320/en/0",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "demoapi.betby.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://demo.betby.com/"
+            },
+            {
+              "name": "Origin",
+              "value": "https://demo.betby.com"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json; UTF-8"
+            },
+            {
+              "name": "server",
+              "value": "openresty"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=1"
+            },
+            {
+              "name": "expires",
+              "value": "Sat, 10 Jan 2026 22:26:57 GMT"
+            },
+            {
+              "name": "x-epoch",
+              "value": "1767872454973"
+            },
+            {
+              "name": "x-version",
+              "value": "1768083974393"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 8662e3c152f0b241b5d273e9b0c8f9fc.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "AMS1-P2"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "smrFFpgCEvAkhId8RCYqn2loxj-WS3z-WLjikTAnPX1_bxxuARoAyg=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json",
+            "size": 1440,
+            "text": "{\"epoch\":1767872454973,\"version\":1768083974393,\"top_events_versions\":[1768083974393],\"rest_events_versions\":[1768083974394,1768083974395,1768083974396,1768083974397,1768083974398,1768083974399],\"generated\":1768084016075,\"status\":{\"b79acebc\":490,\"c6f69642\":419,\"e668a2e4\":2075,\"79fa2c8f\":2211,\"7721a4bd\":934,\"88b1acf4\":3057,\"29fe5b1f\":410,\"8f3bd0c0\":520,\"82c16827\":509,\"f5c658b1\":3054,\"5beccc5\":765,\"77308e7c\":1686,\"e1c0693a\":6528,\"c19b525b\":1626,\"2b0bc7e8\":5636,\"c7f03a33\":4408,\"5ef96b89\":4024,\"2d308dc\":3030,\"bbb4da79\":6761,\"51244fca\":487,\"e9dd307f\":9074,\"3ba6ba82\":7542,\"82a38ff6\":4052,\"b69c62cd\":1880,\"b1f1a6d4\":7223,\"6ba2cd12\":6219,\"678cd9d7\":4414,\"2e939f06\":417,\"f83ce056\":2208,\"9cb79d7f\":2498,\"85acac3e\":3006,\"62148139\":2501,\"7e97e896\":5644,\"f7843f09\":1075,\"b0f70aa5\":488,\"26237f5c\":2516,\"717f74ab\":7039,\"1632817a\":1066,\"d5a8dbae\":484,\"fce0816\":5829,\"2f953377\":1058,\"589203e1\":2217,\"8982b8fb\":1648,\"e127d117\":7037,\"22bd8bc3\":6538,\"4517c63f\":6204,\"5c0cf77e\":1627,\"193da56a\":3376,\"ccb3eaef\":1489,\"95cfc11e\":2678,\"8447422\":5641,\"885614d9\":981,\"782e80ad\":1075,\"f92ff824\":2957,\"48681207\":973,\"1513b1af\":3037,\"3ccb7e9b\":7065,\"75d4384a\":3388,\"b7656e30\":978,\"7f4344b4\":5642,\"a5c22f21\":5057,\"98fb69b3\":5644,\"d2c51fb7\":6549,\"184f04a\":3770,\"678443d\":5069,\"1bc8399d\":511,\"26942b\":7627,\"f9e84c74\":3156,\"5994af90\":4227,\"52d77f4c\":4960,\"e0f37d35\":3374,\"9cdc172d\":2708,\"c09dfe2a\":2227,\"4bcc4e0d\":3390,\"55babb55\":6426,\"8eef7ce2\":6529,\"25d04fda\":5639}}"
+          },
+          "redirectURL": "",
+          "headersSize": 0,
+          "bodySize": 1243
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "ssl": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 0,
+          "receive": 0
+        },
+        "time": 0,
+        "_securityState": "secure",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2026-01-10T23:26:56.542+01:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://demoapi.betby.com/api/v1/promo/get/1653815133341880320/en/0",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "demoapi.betby.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Referer",
+              "value": "https://demo.betby.com/"
+            },
+            {
+              "name": "Origin",
+              "value": "https://demo.betby.com"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-site"
+            },
+            {
+              "name": "Priority",
+              "value": "u=4"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 441
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "server",
+              "value": "openresty"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 10 Jan 2026 22:26:56 GMT"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, stale-while-revalidate=30, s-maxage=10"
+            },
+            {
+              "name": "expires",
+              "value": "Sat, 10 Jan 2026 22:27:06 GMT"
+            },
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Origin,Accept-Encoding"
+            },
+            {
+              "name": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "name": "via",
+              "value": "1.1 8662e3c152f0b241b5d273e9b0c8f9fc.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "AMS1-P2"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "QgOcB6Y2PeaVn3fmQRNA2jsbtKEPn3jSsZV6te5MIAwyIvkFgB9FDQ=="
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json",
+            "size": 96033,
+            "text": "{\"home_top\":{\"line_banner\":[{\"id\":\"2615181456464551936\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2615170499227037697\",\"source_id\":\"2312914488359260162\",\"link\":\"promo/images/1653815133341880320/banner/2312914488359260162_2615170499227037697_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2614432561824403483\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2615181456510693376\"}},{\"id\":\"2610115405628452864\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612310879202582533\",\"source_id\":\"2610097457387941892\",\"link\":\"promo/images/1653815133341880320/banner/2610097457387941892_2612310879202582533_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2605579434807406612\",\"market_id\":\"8\",\"specifiers\":\"goalnr=1\",\"outcome_id\":\"8\",\"multiplier\":\"1.05\",\"bonus_id\":\"2610115405674586112\"}},{\"id\":\"2608304400975929344\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612312271891861509\",\"source_id\":\"2605757850508734464\",\"link\":\"promo/images/1653815133341880320/banner/2605757850508734464_2612312271891861509_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2606594838598127634\",\"market_id\":\"8\",\"specifiers\":\"goalnr=1\",\"outcome_id\":\"8\",\"multiplier\":\"1.05\",\"bonus_id\":\"2608304401009479680\"}},{\"id\":\"2602504028898336768\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612315732477874184\",\"source_id\":\"2532593348464750592\",\"link\":\"promo/images/1653815133341880320/banner/2532593348464750592_2612315732477874184_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2596486356842717219\",\"market_id\":\"38\",\"specifiers\":\"goalnr=1|type=general\",\"outcome_id\":\"ab:player:1050297:1:109922\",\"multiplier\":\"1.05\",\"bonus_id\":\"2602504028940275712\"}},{\"id\":\"2605039464317325312\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612315101461618690\",\"source_id\":\"2605019340822679552\",\"link\":\"promo/images/1653815133341880320/banner/2605019340822679552_2612315101461618690_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2597978299380674582\",\"market_id\":\"50031\",\"specifiers\":\"variant=dst:playerprops:259677:4786:501430\",\"outcome_id\":\"dst:playerprops:259677:4786:501430:42385583\",\"multiplier\":\"1.05\",\"bonus_id\":\"2605039464346693632\"}},{\"id\":\"2600375986629513216\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612316852948443142\",\"source_id\":\"2539774895064231940\",\"link\":\"promo/images/1653815133341880320/banner/2539774895064231940_2612316852948443142_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2600272342135484418\",\"market_id\":\"251\",\"specifiers\":\"\",\"outcome_id\":\"4\",\"multiplier\":\"1.05\",\"bonus_id\":\"2600375986667270144\"}},{\"id\":\"2597440661460488192\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612318346250690568\",\"source_id\":\"2313012121266434056\",\"link\":\"promo/images/1653815133341880320/banner/2313012121266434056_2612318346250690568_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2594319552829595673\",\"market_id\":\"8\",\"specifiers\":\"goalnr=1\",\"outcome_id\":\"6\",\"multiplier\":\"1.05\",\"bonus_id\":\"2597440661510828032\"}},{\"id\":\"2596050172295393280\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612319341189935105\",\"source_id\":\"2596048767237103621\",\"link\":\"promo/images/1653815133341880320/banner/2596048767237103621_2612319341189935105_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":12,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669818860469096448\"}]}},{\"id\":\"2595676257656123392\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612319345703006210\",\"source_id\":\"2595675031052881925\",\"link\":\"promo/images/1653815133341880320/banner/2595675031052881925_2612319345703006210_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":10,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669868197026861056\"}]}},{\"id\":\"2594886557534130176\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612319534731890688\",\"source_id\":\"2532593250745856008\",\"link\":\"promo/images/1653815133341880320/banner/2532593250745856008_2612319534731890688_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2591361882673778717\",\"market_id\":\"40\",\"specifiers\":\"type=general\",\"outcome_id\":\"ab:player:1050276:720:70564\",\"multiplier\":\"1.05\",\"bonus_id\":\"2594886557580271616\"}},{\"id\":\"2609756342038171648\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612311410595729408\",\"source_id\":\"2593120624176148481\",\"link\":\"promo/images/1653815133341880320/banner/2593120624176148481_2612311410595729408_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2606593447406219291\",\"market_id\":\"36\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"90\",\"multiplier\":\"1.05\",\"bonus_id\":\"2609756342084317184\"}},{\"id\":\"2585157811650572288\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612322479858917380\",\"source_id\":\"2585138385815478280\",\"link\":\"promo/images/1653815133341880320/banner/2585138385815478280_2612322479858917380_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2580553272498728990\",\"market_id\":\"38\",\"specifiers\":\"goalnr=1|type=general\",\"outcome_id\":\"bg:player:12942192:10136:962026\",\"multiplier\":\"1.05\",\"bonus_id\":\"2585157817841364992\"}},{\"id\":\"2585156814299607040\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612322480655835136\",\"source_id\":\"2585138385815478274\",\"link\":\"promo/images/1653815133341880320/banner/2585138385815478274_2612322480655835136_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":12,\"items\":[{\"item_type\":\"tournament\",\"id\":\"2470546796305330203\"},{\"item_type\":\"tournament\",\"id\":\"1669818860469096448\"}]}},{\"id\":\"2580377492347035648\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612323868148375559\",\"source_id\":\"2313017981531205640\",\"link\":\"promo/images/1653815133341880320/banner/2313017981531205640_2612323868148375559_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2573817655903522854\",\"market_id\":\"40\",\"specifiers\":\"type=general\",\"outcome_id\":\"bg:player:12941858:93471:1397042\",\"multiplier\":\"1.048\",\"bonus_id\":\"2580377492397363200\"}},{\"id\":\"2572451805590069248\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325551855247368\",\"source_id\":\"2315558814088302595\",\"link\":\"promo/images/1653815133341880320/banner/2315558814088302595_2612325551855247368_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":10,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669818860469096448\"},{\"item_type\":\"tournament\",\"id\":\"1669819032615915520\"},{\"item_type\":\"tournament\",\"id\":\"2470546796305330203\"}]}},{\"id\":\"2573514340644827136\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325554753511425\",\"source_id\":\"2572878186807435270\",\"link\":\"promo/images/1653815133341880320/banner/2572878186807435270_2612325554753511425_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2573084779788513325\",\"market_id\":\"202\",\"specifiers\":\"setnr=1\",\"outcome_id\":\"4\",\"multiplier\":\"1.05\",\"bonus_id\":\"2573514340716130304\"}},{\"id\":\"2580029849896882176\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612323872254603264\",\"source_id\":\"2572878120042504196\",\"link\":\"promo/images/1653815133341880320/banner/2572878120042504196_2612323872254603264_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":6,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669818860469096448\"},{\"item_type\":\"tournament\",\"id\":\"1669819032615915520\"},{\"item_type\":\"tournament\",\"id\":\"1669818934959935488\"}]}},{\"id\":\"2571713648275894272\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325824577286147\",\"source_id\":\"2539774895064231945\",\"link\":\"promo/images/1653815133341880320/banner/2539774895064231945_2612325824577286147_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2544489887831302193\",\"market_id\":\"50036\",\"specifiers\":\"variant=dst:playerprops:256055:4679:386427\",\"outcome_id\":\"dst:playerprops:256055:4679:386427:39526670\",\"multiplier\":\"1.05\",\"bonus_id\":\"2571713648363970560\"}},{\"id\":\"2516645044681838592\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612333439755624450\",\"source_id\":\"2313011159332171782\",\"link\":\"promo/images/1653815133341880320/banner/2313011159332171782_2612333439755624450_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2516073939575377957\",\"market_id\":\"188\",\"specifiers\":\"hcp=-1.5\",\"outcome_id\":\"1714\",\"multiplier\":\"1.04\",\"bonus_id\":\"2516645044732178432\"}},{\"id\":\"2560067267287191552\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612327815110070273\",\"source_id\":\"2559933628863881219\",\"link\":\"promo/images/1653815133341880320/banner/2559933628863881219_2612327815110070273_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2558210722542792728\",\"market_id\":\"29\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"multiplier\":\"1.05\",\"bonus_id\":\"2560067267345920000\"}},{\"id\":\"2557221400247148544\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[{\"type\":\"tournament\",\"value\":\"2470546796305330203\",\"name\":\"UEFA Champions League\",\"secondary_text\":\"Soccer - International\"},{\"type\":\"event\",\"value\":\"2531988952760590366\",\"name\":\"Paris Saint-Germain - Inter Milano - 2025-05-31 19:00:00\",\"secondary_text\":\"Soccer - International - UEFA Champions League\"}],\"images\":{\"desktop\":{\"static_id\":\"2612328122930044929\",\"source_id\":\"2315558814088302595\",\"link\":\"promo/images/1653815133341880320/banner/2315558814088302595_2612328122930044929_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2531988952760590366\",\"market_id\":\"9\",\"specifiers\":\"\",\"outcome_id\":\"6\",\"multiplier\":\"1.03\",\"bonus_id\":\"2557221400322641920\"}},{\"id\":\"2520246845649850368\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612332986422661127\",\"source_id\":\"2315558814088302595\",\"link\":\"promo/images/1653815133341880320/banner/2315558814088302595_2612332986422661127_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":3,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669818812230406144\"},{\"item_type\":\"tournament\",\"id\":\"1669818814746988544\"},{\"item_type\":\"tournament\",\"id\":\"2487705988673703950\"}]}},{\"id\":\"2460104626767273984\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612342317029400577\",\"source_id\":\"2403273230451351557\",\"link\":\"promo/images/1653815133341880320/banner/2403273230451351557_2612342317029400577_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":1,\"items\":[{\"item_type\":\"event\",\"id\":\"2365873285578764322\"}]}}],\"hero_banner\":[{\"id\":\"2540522569426149376\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"hero_banner\",\"view\":\"text\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612330692624916488\",\"source_id\":\"2460227484797509638\",\"link\":\"promo/images/1653815133341880320/banner/2460227484797509638_2612330692624916488_large.jpeg\"},\"mobile\":{\"static_id\":\"2612330696420765698\",\"source_id\":\"2460227484797509638\",\"link\":\"promo/images/1653815133341880320/banner/2460227484797509638_2612330696420765698_small.jpeg\"},\"tablet\":{\"static_id\":\"2612330699625213956\",\"source_id\":\"2460227484797509638\",\"link\":\"promo/images/1653815133341880320/banner/2460227484797509638_2612330699625213956_medium.jpeg\"},\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"link\":{\"url\":\"/1\",\"custom_action\":false},\"title\":\"BET BUILDER\",\"subtitle\":\"One Event. Every Market. One Combo.\",\"legal_text\":\"Sports, Esports, Player Props & Stats — everything at your fingertips\"}},{\"id\":\"2612997668296855552\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"hero_banner\",\"view\":\"event\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612992434958901253\",\"source_id\":\"2557969923242594307\",\"link\":\"promo/images/1653815133341880320/banner/2557969923242594307_2612992434958901253_large.jpeg\"},\"mobile\":{\"static_id\":\"2612992434958901255\",\"source_id\":\"2557969923242594307\",\"link\":\"promo/images/1653815133341880320/banner/2557969923242594307_2612992434958901255_small.jpeg\"},\"tablet\":{\"static_id\":\"2612992434958901254\",\"source_id\":\"2557969923242594307\",\"link\":\"promo/images/1653815133341880320/banner/2557969923242594307_2612992434958901254_medium.jpeg\"},\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2573817655903522846\",\"title\":\"Match of The Day\"}},{\"id\":\"2540520915133927424\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"hero_banner\",\"view\":\"button\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612330685905645571\",\"source_id\":\"2460235683109933064\",\"link\":\"promo/images/1653815133341880320/banner/2460235683109933064_2612330685905645571_large.jpeg\"},\"mobile\":{\"static_id\":\"2612330689454022657\",\"source_id\":\"2460235683109933064\",\"link\":\"promo/images/1653815133341880320/banner/2460235683109933064_2612330689454022657_small.jpeg\"},\"tablet\":{\"static_id\":\"2612330693224697865\",\"source_id\":\"2460235683109933064\",\"link\":\"promo/images/1653815133341880320/banner/2460235683109933064_2612330693224697865_medium.jpeg\"},\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"link\":{\"url\":\"/300\",\"custom_action\":false},\"title\":\"BETBY.GAMES\",\"subtitle\":\"300000 + events per month\",\"legal_text\":\"16 sports, 10,000 events per day, and 0 seconds of live time delay\",\"button\":{\"text\":\"Check Now\",\"color\":\"\"}}},{\"id\":\"2460242129499328512\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"hero_banner\",\"view\":\"text\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612340067846459397\",\"source_id\":\"2460239775593017350\",\"link\":\"promo/images/1653815133341880320/banner/2460239775593017350_2612340067846459397_large.jpeg\"},\"mobile\":{\"static_id\":\"2612340071768137733\",\"source_id\":\"2460239775593017350\",\"link\":\"promo/images/1653815133341880320/banner/2460239775593017350_2612340071768137733_small.jpeg\"},\"tablet\":{\"static_id\":\"2612340075845001218\",\"source_id\":\"2460239775593017350\",\"link\":\"promo/images/1653815133341880320/banner/2460239775593017350_2612340075845001218_medium.jpeg\"},\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"link\":{\"url\":\"/?pageAnchor=widgetTournament\",\"custom_action\":false},\"title\":\"Promo Tools\",\"subtitle\":\"Banners, Bonus Engine, Odds Boost, Tournament Widget and many more\",\"legal_text\":\"\"}},{\"id\":\"2488711593655930880\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"hero_banner\",\"view\":\"button\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612336719151898631\",\"source_id\":\"2432446861949415431\",\"link\":\"promo/images/1653815133341880320/banner/2432446861949415431_2612336719151898631_large.jpeg\"},\"mobile\":{\"static_id\":\"2612336721643311111\",\"source_id\":\"2432446861949415431\",\"link\":\"promo/images/1653815133341880320/banner/2432446861949415431_2612336721643311111_small.jpeg\"},\"tablet\":{\"static_id\":\"2612336725569179654\",\"source_id\":\"2432446861949415431\",\"link\":\"promo/images/1653815133341880320/banner/2432446861949415431_2612336725569179654_medium.jpeg\"},\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"link\":{\"url\":\"https://demo.betby.com/sportsbook/tile?btBookingCode=E2414D4\",\"custom_action\":false},\"title\":\"Share Betslip \",\"subtitle\":\"on messengers and copy bestslip\",\"legal_text\":\"\",\"button\":{\"text\":\"CHECK NOW\",\"color\":\"\"}}}]},\"operator_page\":{\"line_banner\":[{\"id\":\"2574930426305056768\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325458414542855\",\"source_id\":\"2262995970264539145\",\"link\":\"promo/images/1653815133341880320/banner/2262995970264539145_2612325458414542855_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2544519311494615072\",\"market_id\":\"2000000\",\"specifiers\":\"variant=tt:markettext:2573441256399179777\",\"outcome_id\":\"tt:outcometext:2573441256399179779\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574930426347008000\"}},{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}},{\"id\":\"2574922285307797504\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325464085245952\",\"source_id\":\"2315417295154978819\",\"link\":\"promo/images/1653815133341880320/banner/2315417295154978819_2612325464085245952_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2574047988494245901\",\"market_id\":\"13611\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574922285358125056\"}}]},\"operator_page1\":{\"line_banner\":[{\"id\":\"2574930426305056768\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325458414542855\",\"source_id\":\"2262995970264539145\",\"link\":\"promo/images/1653815133341880320/banner/2262995970264539145_2612325458414542855_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2544519311494615072\",\"market_id\":\"2000000\",\"specifiers\":\"variant=tt:markettext:2573441256399179777\",\"outcome_id\":\"tt:outcometext:2573441256399179779\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574930426347008000\"}},{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}}]},\"home_center\":{\"line_banner\":[{\"id\":\"2613018980914438144\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2613017694827585537\",\"source_id\":\"2613015470911139842\",\"link\":\"promo/images/1653815133341880320/banner/2613015470911139842_2613017694827585537_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2611996852647763970\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.048\",\"bonus_id\":\"2613018980964773888\"}},{\"id\":\"2611266095029563392\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612310050395525123\",\"source_id\":\"2315831558545747968\",\"link\":\"promo/images/1653815133341880320/banner/2315831558545747968_2612310050395525123_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2610480536011022373\",\"market_id\":\"2\",\"specifiers\":\"\",\"outcome_id\":\"5\",\"multiplier\":\"1.01\",\"bonus_id\":\"2611266095075696640\"}},{\"id\":\"2605842567232892928\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612313959692382216\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612313959692382216_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2605358806686904328\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2605842567283220480\"}},{\"id\":\"2516645044681838592\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612333439755624450\",\"source_id\":\"2313011159332171782\",\"link\":\"promo/images/1653815133341880320/banner/2313011159332171782_2612333439755624450_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2516073939575377957\",\"market_id\":\"188\",\"specifiers\":\"hcp=-1.5\",\"outcome_id\":\"1714\",\"multiplier\":\"1.04\",\"bonus_id\":\"2516645044732178432\"}},{\"id\":\"2540204562367778816\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612330689454022656\",\"source_id\":\"2313017981531205634\",\"link\":\"promo/images/1653815133341880320/banner/2313017981531205634_2612330689454022656_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":4,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669819088278523904\"},{\"item_type\":\"tournament\",\"id\":\"2292680750216122403\"},{\"item_type\":\"tournament\",\"id\":\"1707074231948414976\"},{\"item_type\":\"tournament\",\"id\":\"2396731568715603978\"}]}},{\"id\":\"2480771632814231552\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"auto_events\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612341933330280452\",\"source_id\":\"2313017981531205638\",\"link\":\"promo/images/1653815133341880320/banner/2313017981531205638_2612341933330280452_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items_limit\":3,\"items\":[{\"item_type\":\"tournament\",\"id\":\"1669818960062844928\"}]}}]},\"left_sidebar\":{\"popular_now_banner\":[{\"id\":\"2579316918066483200\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"popular_now_banner\",\"view\":\"tournament\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612324305048047622\",\"source_id\":\"2461495686626160644\",\"link\":\"promo/images/1653815133341880320/banner/2461495686626160644_2612324305048047622_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"tournament_id\":\"1671175995522211840\"}},{\"id\":\"2578231654992719872\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"popular_now_banner\",\"view\":\"tournament\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612324598192148480\",\"source_id\":\"2262996034617745409\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745409_2612324598192148480_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"tournament_id\":\"2470546796305330203\"}},{\"id\":\"2461500653575483392\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"popular_now_banner\",\"view\":\"tournament\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612342313418100736\",\"source_id\":\"2461495686626160641\",\"link\":\"promo/images/1653815133341880320/banner/2461495686626160641_2612342313418100736_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"tournament_id\":\"1669819088278523904\"}}]},\"sport_page\":{\"line_banner\":[{\"id\":\"2619960836822798336\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[{\"type\":\"sport\",\"value\":\"1\",\"name\":\"Soccer\",\"secondary_text\":\"\"}],\"images\":{\"desktop\":{\"static_id\":\"2619959230131736578\",\"source_id\":\"2262995213100396552\",\"link\":\"promo/images/1653815133341880320/banner/2262995213100396552_2619959230131736578_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2617698287565811761\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"2\",\"multiplier\":\"1.05\",\"bonus_id\":\"2619960836868939776\"}},{\"id\":\"2579263299417935872\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[{\"type\":\"sport\",\"value\":\"2\",\"name\":\"Basketball\",\"secondary_text\":\"\"}],\"images\":{\"desktop\":{\"static_id\":\"2612324309733093380\",\"source_id\":\"2539774895064231945\",\"link\":\"promo/images/1653815133341880320/banner/2539774895064231945_2612324309733093380_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2574109919779368989\",\"market_id\":\"139\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"multiplier\":\"1.05\",\"bonus_id\":\"2579263299459887104\"}}]},\"tournament\":{\"line_banner\":[{\"id\":\"2557221400247148544\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[{\"type\":\"tournament\",\"value\":\"2470546796305330203\",\"name\":\"UEFA Champions League\",\"secondary_text\":\"Soccer - International\"},{\"type\":\"event\",\"value\":\"2531988952760590366\",\"name\":\"Paris Saint-Germain - Inter Milano - 2025-05-31 19:00:00\",\"secondary_text\":\"Soccer - International - UEFA Champions League\"}],\"images\":{\"desktop\":{\"static_id\":\"2612328122930044929\",\"source_id\":\"2315558814088302595\",\"link\":\"promo/images/1653815133341880320/banner/2315558814088302595_2612328122930044929_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":true},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2531988952760590366\",\"market_id\":\"9\",\"specifiers\":\"\",\"outcome_id\":\"6\",\"multiplier\":\"1.03\",\"bonus_id\":\"2557221400322641920\"}}]},\"operator_page3\":{\"line_banner\":[{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}}]},\"operator_page5\":{\"line_banner\":[{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}}]},\"operator_page4\":{\"line_banner\":[{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}}]},\"operator_page2\":{\"line_banner\":[{\"id\":\"2574924425463992320\",\"display_platform\":[\"desktop\"],\"type\":\"line_banner\",\"view\":\"boosted_odds\",\"restrictions\":[],\"images\":{\"desktop\":{\"static_id\":\"2612325454815834117\",\"source_id\":\"2262996034617745413\",\"link\":\"promo/images/1653815133341880320/banner/2262996034617745413_2612325454815834117_large.jpeg\"},\"mobile\":null,\"tablet\":null,\"use_gradient\":false},\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"event_id\":\"2572715535049568292\",\"market_id\":\"1\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"multiplier\":\"1.05\",\"bonus_id\":\"2574924425514332160\"}}]},\"event_page\":{\"line_banner\":[{\"id\":\"2610115657718702080\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2605579434807406612\",\"market_id\":\"10\",\"market_name\":\"Double chance\",\"specifiers\":\"\",\"outcome_id\":\"11\",\"outcome_name\":\"draw or Atletico Madrid\"},{\"event_id\":\"2605579434807406612\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"76\",\"outcome_name\":\"no\"},{\"event_id\":\"2605579434807406612\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 2.5\"}]}},{\"id\":\"2608314706796097536\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2606594838598127634\",\"market_id\":\"26\",\"market_name\":\"Odd/even\",\"specifiers\":\"\",\"outcome_id\":\"70\",\"outcome_name\":\"odd\"},{\"event_id\":\"2606594838598127634\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Chelsea FC\"},{\"event_id\":\"2606594838598127634\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"}]}},{\"id\":\"2607592496078921728\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2604063478348128284\",\"market_id\":\"26\",\"market_name\":\"Odd/even\",\"specifiers\":\"\",\"outcome_id\":\"70\",\"outcome_name\":\"odd\"},{\"event_id\":\"2604063478348128284\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Manchester City\"},{\"event_id\":\"2604063478348128284\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2604063478348128284\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"76\",\"outcome_name\":\"no\"}]}},{\"id\":\"2605041008198692864\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2597978299380674582\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"2\",\"outcome_name\":\"draw\"},{\"event_id\":\"2597978299380674582\",\"market_id\":\"26\",\"market_name\":\"Odd/even\",\"specifiers\":\"\",\"outcome_id\":\"70\",\"outcome_name\":\"odd\"},{\"event_id\":\"2597978299380674582\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2597978299380674582\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 1.5\"}]}},{\"id\":\"2602484029357957120\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2596486356842717219\",\"market_id\":\"20\",\"market_name\":\"Chelsea FC total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"},{\"event_id\":\"2596486356842717219\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Chelsea FC\"},{\"event_id\":\"2596486356842717219\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2596486356842717219\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"}]}},{\"id\":\"2597779210571485184\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113882\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2592879592805113882\",\"market_id\":\"16\",\"market_name\":\"Handicap(hcp=-1.5)\",\"specifiers\":\"hcp=-1.5\",\"outcome_id\":\"1714\",\"outcome_name\":\"Newcastle United (-1.5)\"},{\"event_id\":\"2592879592805113882\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592879592805113882\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Athletic Bilbao\"}]}},{\"id\":\"2597777758859960320\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113879\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Olympique Marseille\"},{\"event_id\":\"2592879592805113879\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2592879592805113879\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113879\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"}]}},{\"id\":\"2597776614930649088\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113876\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Galatasaray Istanbul\"},{\"event_id\":\"2592879592805113876\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113876\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592879592805113876\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Galatasaray Istanbul\"}]}},{\"id\":\"2597767930750046208\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113875\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"FC Barcelona\"},{\"event_id\":\"2592879592805113875\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113875\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Club Brugge\"},{\"event_id\":\"2592879592805113875\",\"market_id\":\"150054\",\"market_name\":\"Total VAR(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2597767459440304128\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592690640399773708\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"SL Benfica\"},{\"event_id\":\"2592690640399773708\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2592690640399773708\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592690640399773708\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Bayer Leverkusen\"}]}},{\"id\":\"2597766860191707136\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592689907235430445\",\"market_id\":\"16\",\"market_name\":\"Handicap(hcp=-3.5)\",\"specifiers\":\"hcp=-3.5\",\"outcome_id\":\"1714\",\"outcome_name\":\"Inter Milano (-3.5)\"},{\"event_id\":\"2592689907235430445\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592689907235430445\",\"market_id\":\"18\",\"market_name\":\"Total(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2592689907235430445\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"}]}},{\"id\":\"2597766205234360320\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113885\",\"market_id\":\"16\",\"market_name\":\"Handicap(hcp=1.5)\",\"specifiers\":\"hcp=1.5\",\"outcome_id\":\"1715\",\"outcome_name\":\"Chelsea FC (-1.5)\"},{\"event_id\":\"2592879592805113885\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2592879592805113885\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113885\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"}]}},{\"id\":\"2597765626470739968\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592663488216309768\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Villarreal CF\"},{\"event_id\":\"2592663488216309768\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2592663488216309768\",\"market_id\":\"50260\",\"market_name\":\"Offsides 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Villarreal CF\"},{\"event_id\":\"2592663488216309768\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"}]}},{\"id\":\"2597702859101446144\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592663488216309771\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Manchester City\"},{\"event_id\":\"2592663488216309771\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592663488216309771\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592663488216309771\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2597470479270948864\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113886\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113886\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"},{\"event_id\":\"2592879592805113886\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"}]}},{\"id\":\"2597469964709539840\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113883\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"AS Monaco\"},{\"event_id\":\"2592879592805113883\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 3.5\"},{\"event_id\":\"2592879592805113883\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 10.5\"},{\"event_id\":\"2592879592805113883\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2597469083947642880\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113881\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2592879592805113881\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=11.5)\",\"specifiers\":\"total=11.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 11.5\"},{\"event_id\":\"2592879592805113881\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113881\",\"market_id\":\"150054\",\"market_name\":\"Total VAR(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 0.5\"}]}},{\"id\":\"2597468536574185472\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592722859117916208\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"PSV Eindhoven\"},{\"event_id\":\"2592722859117916208\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592722859117916208\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 9.5\"},{\"event_id\":\"2592722859117916208\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2597467559779504128\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592524221930410003\",\"market_id\":\"16\",\"market_name\":\"Handicap(hcp=-2.5)\",\"specifiers\":\"hcp=-2.5\",\"outcome_id\":\"1714\",\"outcome_name\":\"Atletico Madrid (-2.5)\"},{\"event_id\":\"2592524221930410003\",\"market_id\":\"50260\",\"market_name\":\"Offsides 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Union Saint-Gilloise\"},{\"event_id\":\"2592524221930410003\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2597466041084948480\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113891\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2592879592805113891\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"SSC Napoli\"},{\"event_id\":\"2592879592805113891\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 2.5\"}]}},{\"id\":\"2597464637339480064\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592847199427768326\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Arsenal FC\"},{\"event_id\":\"2592847199427768326\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 2.5\"},{\"event_id\":\"2592847199427768326\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 9.5\"},{\"event_id\":\"2592847199427768326\",\"market_id\":\"150054\",\"market_name\":\"Total VAR(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2597462194023182336\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113884\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Paris Saint-Germain\"},{\"event_id\":\"2592879592805113884\",\"market_id\":\"50260\",\"market_name\":\"Offsides 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Bayern Munich\"},{\"event_id\":\"2592879592805113884\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2592879592805113884\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Bayern Munich\"}]}},{\"id\":\"2597460252068810752\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2592879592805113880\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2592879592805113880\",\"market_id\":\"162\",\"market_name\":\"Corner 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Liverpool FC\"},{\"event_id\":\"2592879592805113880\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2592879592805113880\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2594875890647310336\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2591361882673778717\",\"market_id\":\"19\",\"market_name\":\"Crystal Palace total(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"},{\"event_id\":\"2591361882673778717\",\"market_id\":\"10\",\"market_name\":\"Double chance\",\"specifiers\":\"\",\"outcome_id\":\"9\",\"outcome_name\":\"Crystal Palace or draw\"},{\"event_id\":\"2591361882673778717\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2591361882673778717\",\"market_id\":\"26\",\"market_name\":\"Odd/even\",\"specifiers\":\"\",\"outcome_id\":\"70\",\"outcome_name\":\"odd\"}]}},{\"id\":\"2595254261331927040\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2593705069589434415\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"2\",\"outcome_name\":\"draw\"},{\"event_id\":\"2593705069589434415\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2593705069589434415\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2593705069589434415\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2589842247721816064\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2587643375117275148\",\"market_id\":\"10\",\"market_name\":\"Double chance\",\"specifiers\":\"\",\"outcome_id\":\"9\",\"outcome_name\":\"Portugal or draw\"},{\"event_id\":\"2587643375117275148\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2587643375117275148\",\"market_id\":\"150122\",\"market_name\":\"Player to receive a card\",\"specifiers\":\"\",\"outcome_id\":\"ab:player:1033009:1065:52347\",\"outcome_name\":\"Nelson Semedo\"},{\"event_id\":\"2587643375117275148\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 8.5\"}]}},{\"id\":\"2583369651379638272\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2581631043975127051\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.25)\",\"specifiers\":\"total=2.25\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.25\"},{\"event_id\":\"2581631043975127051\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Girona FC\"}]}},{\"id\":\"2584370796977852416\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2581631043975127078\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Valencia CF\"},{\"event_id\":\"2581631043975127078\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2581631043975127078\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Valencia CF\"},{\"event_id\":\"2581631043975127078\",\"market_id\":\"150054\",\"market_name\":\"Total VAR(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2587976738453729280\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2585490512089849879\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2585490512089849879\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=6.5)\",\"specifiers\":\"total=6.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 6.5\"},{\"event_id\":\"2585490512089849879\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259976:7257:346958)\",\"specifiers\":\"variant=dst:playerprops:259976:7257:346958\",\"outcome_id\":\"dst:playerprops:259976:7257:346958:40834547\",\"outcome_name\":\"Konstantinos Mavropanos 1+\"},{\"event_id\":\"2585490512089849879\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259976:7257:346964)\",\"specifiers\":\"variant=dst:playerprops:259976:7257:346964\",\"outcome_id\":\"dst:playerprops:259976:7257:346964:40834589\",\"outcome_name\":\"Lazaros Rota 1+\"}]}},{\"id\":\"2580027814673784832\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522851\",\"market_id\":\"50036\",\"market_name\":\"Player cards (incl. overtime)(variant=dst:playerprops:259616:5168:367285)\",\"specifiers\":\"variant=dst:playerprops:259616:5168:367285\",\"outcome_id\":\"dst:playerprops:259616:5168:367285:40258420\",\"outcome_name\":\"Kaan Ayhan 1+\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259616:6774:436276)\",\"specifiers\":\"variant=dst:playerprops:259616:6774:436276\",\"outcome_id\":\"dst:playerprops:259616:6774:436276:40258583\",\"outcome_name\":\"Can Uzun 1+\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2580027806541029376\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522853\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259617:4717:312471)\",\"specifiers\":\"variant=dst:playerprops:259617:4717:312471\",\"outcome_id\":\"dst:playerprops:259617:4717:312471:40254739\",\"outcome_name\":\"Erling Haaland 1+\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"50036\",\"market_name\":\"Player cards (incl. overtime)(variant=dst:playerprops:259617:4719:310699)\",\"specifiers\":\"variant=dst:playerprops:259617:4719:310699\",\"outcome_id\":\"dst:playerprops:259617:4719:310699:40254731\",\"outcome_name\":\"Eljif Elmas 1+\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"}]}},{\"id\":\"2580027799297466368\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522854\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259618:4696:311998)\",\"specifiers\":\"variant=dst:playerprops:259618:4696:311998\",\"outcome_id\":\"dst:playerprops:259618:4696:311998:40253613\",\"outcome_name\":\"Raphinha 1+\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259618:4696:373565)\",\"specifiers\":\"variant=dst:playerprops:259618:4696:373565\",\"outcome_id\":\"dst:playerprops:259618:4696:373565:40253706\",\"outcome_name\":\"Lamine Yamal 1+\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"162\",\"market_name\":\"Corner 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"FC Barcelona\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"}]}},{\"id\":\"2580027791781277696\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522855\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259619:4724:511211)\",\"specifiers\":\"variant=dst:playerprops:259619:4724:511211\",\"outcome_id\":\"dst:playerprops:259619:4724:511211:40260308\",\"outcome_name\":\"Fotis Ioannidis 1+\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"FC Kairat Almaty\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579926385950859264\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522855\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522855\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 4.5\"}]}},{\"id\":\"2579925863382519808\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522854\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"FC Barcelona\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522854\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Newcastle United\"}]}},{\"id\":\"2579925222358659072\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522853\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Manchester City\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 2.5\"},{\"event_id\":\"2573817655903522853\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"}]}},{\"id\":\"2579924127947296768\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522851\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Eintracht Frankfurt\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 3.5\"},{\"event_id\":\"2573817655903522851\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"}]}},{\"id\":\"2579914316463607808\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522850\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522850\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522850\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522850\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2579912072255123456\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522848\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2573817655903522848\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 3.5\"},{\"event_id\":\"2573817655903522848\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522848\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579687383909933056\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522844\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259613:5166:380773)\",\"specifiers\":\"variant=dst:playerprops:259613:5166:380773\",\"outcome_id\":\"dst:playerprops:259613:5166:380773:40234410\",\"outcome_name\":\"Marcus Thuram 1+\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"162\",\"market_name\":\"Corner 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Inter Milano\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Ajax Amsterdam\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579687375059955712\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522843\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259609:5160:508769)\",\"specifiers\":\"variant=dst:playerprops:259609:5160:508769\",\"outcome_id\":\"dst:playerprops:259609:5160:508769:40238402\",\"outcome_name\":\"Erik Prekop 1+\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259609:5160:470414)\",\"specifiers\":\"variant=dst:playerprops:259609:5160:470414\",\"outcome_id\":\"dst:playerprops:259609:5160:470414:40238230\",\"outcome_name\":\"Vasil Kusej 1+\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Bodoe/Glimt\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"162\",\"market_name\":\"Corner 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Slavia Prague\"}]}},{\"id\":\"2579685720490909696\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522846\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259612:4789:508128)\",\"specifiers\":\"variant=dst:playerprops:259612:4789:508128\",\"outcome_id\":\"dst:playerprops:259612:4789:508128:40237014\",\"outcome_name\":\"Alexander Isak 1+\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259612:4695:444916)\",\"specifiers\":\"variant=dst:playerprops:259612:4695:444916\",\"outcome_id\":\"dst:playerprops:259612:4695:444916:40236659\",\"outcome_name\":\"Julian Alvarez 1+\"}]}},{\"id\":\"2579685710185500672\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522847\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259611:4720:388536)\",\"specifiers\":\"variant=dst:playerprops:259611:4720:388536\",\"outcome_id\":\"dst:playerprops:259611:4720:388536:40233597\",\"outcome_name\":\"Bradley Barcola 1+\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259611:4720:384695)\",\"specifiers\":\"variant=dst:playerprops:259611:4720:384695\",\"outcome_id\":\"dst:playerprops:259611:4720:384695:40233551\",\"outcome_name\":\"Goncalo Ramos 1+\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579683442807676928\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522845\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259610:4708:385860)\",\"specifiers\":\"variant=dst:playerprops:259610:4708:385860\",\"outcome_id\":\"dst:playerprops:259610:4708:385860:40235259\",\"outcome_name\":\"Harry Kane 1+\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259610:4786:388605)\",\"specifiers\":\"variant=dst:playerprops:259610:4786:388605\",\"outcome_id\":\"dst:playerprops:259610:4786:388605:40235335\",\"outcome_name\":\"Cole Palmer 1+\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"}]}},{\"id\":\"2579682303072669696\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2571251903958753315\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2571251903958753315\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2571251903958753315\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=11.5)\",\"specifiers\":\"total=11.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 11.5\"},{\"event_id\":\"2571251903958753315\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=6.5)\",\"specifiers\":\"total=6.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 6.5\"}]}},{\"id\":\"2579682291123101696\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2570337744085717005\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2570337744085717005\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2570337744085717005\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2570337744085717005\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"}]}},{\"id\":\"2579682276208152576\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2575791700773572622\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Alianza Lima\"},{\"event_id\":\"2575791700773572622\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2575791700773572622\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2575791700773572622\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"}]}},{\"id\":\"2579682265206497280\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522841\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259608:4792:507520)\",\"specifiers\":\"variant=dst:playerprops:259608:4792:507520\",\"outcome_id\":\"dst:playerprops:259608:4792:507520:40233029\",\"outcome_name\":\"Mehdi Taremi 1+\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259608:4792:384591)\",\"specifiers\":\"variant=dst:playerprops:259608:4792:384591\",\"outcome_id\":\"dst:playerprops:259608:4792:384591:40232560\",\"outcome_name\":\"Ayoub El Kaabi 1+\"}]}},{\"id\":\"2579678106541498368\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2570556914027077678\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2570556914027077678\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2570556914027077678\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2570556914027077678\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"}]}},{\"id\":\"2579676538488365056\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2571377580099907609\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2571377580099907609\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2571377580099907609\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"},{\"event_id\":\"2571377580099907609\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579676523644727296\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2570556914027077656\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2570556914027077656\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2570556914027077656\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2570556914027077656\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"}]}},{\"id\":\"2579674513277071360\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2570556914027077661\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2570556914027077661\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2570556914027077661\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"},{\"event_id\":\"2570556914027077661\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579323351310938112\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522847\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522847\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"}]}},{\"id\":\"2579322862376722432\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522846\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522846\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579322377309655040\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522845\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522845\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"}]}},{\"id\":\"2579321857018830848\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522844\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Inter Milano\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522844\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2579321400934408192\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522843\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Slavia Prague\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 9.5\"},{\"event_id\":\"2573817655903522843\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 2.5\"}]}},{\"id\":\"2579320619195838464\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522841\",\"market_id\":\"19\",\"market_name\":\"Olympiacos Piraeus total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 3.5\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522841\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"}]}},{\"id\":\"2579317566946287616\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522840\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Tottenham Hotspur\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"76\",\"outcome_name\":\"no\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"177\",\"market_name\":\"1st half - total corners(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"152\",\"market_name\":\"1st half - total bookings(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2579395815621660672\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522840\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259607:4725:312868)\",\"specifiers\":\"variant=dst:playerprops:259607:4725:312868\",\"outcome_id\":\"dst:playerprops:259607:4725:312868:40222466\",\"outcome_name\":\"Richarlison 1+\"},{\"event_id\":\"2573817655903522840\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259607:6649:442553)\",\"specifiers\":\"variant=dst:playerprops:259607:6649:442553\",\"outcome_id\":\"dst:playerprops:259607:6649:442553:40222781\",\"outcome_name\":\"Nicolas Pepe 1+\"}]}},{\"id\":\"2597593291218362368\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2595430608834531332\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"US Lecce\"},{\"event_id\":\"2595430608834531332\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"}]}},{\"id\":\"2579394674003415040\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522839\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2573817655903522839\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259605:4722:434385)\",\"specifiers\":\"variant=dst:playerprops:259605:4722:434385\",\"outcome_id\":\"dst:playerprops:259605:4722:434385:40221278\",\"outcome_name\":\"Kylian Mbappe 1+\"},{\"event_id\":\"2573817655903522839\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259605:4722:180597)\",\"specifiers\":\"variant=dst:playerprops:259605:4722:180597\",\"outcome_id\":\"dst:playerprops:259605:4722:180597:40220973\",\"outcome_name\":\"Vinicius Junior 1+\"},{\"event_id\":\"2573817655903522839\",\"market_id\":\"50036\",\"market_name\":\"Player cards (incl. overtime)(variant=dst:playerprops:259605:6442:383967)\",\"specifiers\":\"variant=dst:playerprops:259605:6442:383967\",\"outcome_id\":\"dst:playerprops:259605:6442:383967:40221237\",\"outcome_name\":\"Bilal Nadir 1+\"}]}},{\"id\":\"2579316484958457856\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522838\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 3.5\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"}]}},{\"id\":\"2579392990233628672\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522838\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Juventus\"},{\"event_id\":\"2573817655903522838\",\"market_id\":\"50036\",\"market_name\":\"Player cards (incl. overtime)(variant=dst:playerprops:259604:4700:491193)\",\"specifiers\":\"variant=dst:playerprops:259604:4700:491193\",\"outcome_id\":\"dst:playerprops:259604:4700:491193:40220849\",\"outcome_name\":\"Jobe Bellingham 1+\"}]}},{\"id\":\"2579315535091216384\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522837\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=10.5)\",\"specifiers\":\"total=10.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 10.5\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"}]}},{\"id\":\"2579390666652127232\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522837\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Qarabag FK\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"162\",\"market_name\":\"Corner 1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"SL Benfica\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259606:4698:500813)\",\"specifiers\":\"variant=dst:playerprops:259606:4698:500813\",\"outcome_id\":\"dst:playerprops:259606:4698:500813:40222312\",\"outcome_name\":\"Franjo Ivanovic 1+\"},{\"event_id\":\"2573817655903522837\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259606:4698:498825)\",\"specifiers\":\"variant=dst:playerprops:259606:4698:498825\",\"outcome_id\":\"dst:playerprops:259606:4698:498825:40222276\",\"outcome_name\":\"Richard Rios 1+\"}]}},{\"id\":\"2579314242805174272\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522834\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"PSV Eindhoven\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"18\",\"market_name\":\"Total(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"13\",\"outcome_name\":\"under 9.5\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"136\",\"market_name\":\"Booking 1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Union Saint-Gilloise\"}]}},{\"id\":\"2579389521640689664\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522834\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=4.5)\",\"specifiers\":\"total=4.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 4.5\"},{\"event_id\":\"2573817655903522834\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579387190924677120\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522833\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Arsenal FC\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"50256\",\"market_name\":\"Total offsides(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"}]}},{\"id\":\"2579386955796193280\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2573817655903522833\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=7.5)\",\"specifiers\":\"total=7.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 7.5\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259603:4694:499940)\",\"specifiers\":\"variant=dst:playerprops:259603:4694:499940\",\"outcome_id\":\"dst:playerprops:259603:4694:499940:40217740\",\"outcome_name\":\"Viktor Gyokeres 1+\"},{\"event_id\":\"2573817655903522833\",\"market_id\":\"50031\",\"market_name\":\"Player goals (incl. overtime)(variant=dst:playerprops:259603:7832:386134)\",\"specifiers\":\"variant=dst:playerprops:259603:7832:386134\",\"outcome_id\":\"dst:playerprops:259603:7832:386134:40217460\",\"outcome_name\":\"Oihan Sancet 1+\"}]}},{\"id\":\"2573154918059872256\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2568869885396525099\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2568869885396525099\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"}]}},{\"id\":\"2572879651772960768\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2569174496854548519\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"Chelsea FC\"},{\"event_id\":\"2569174496854548519\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2569174496854548519\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"},{\"event_id\":\"2569174496854548519\",\"market_id\":\"20\",\"market_name\":\"Fulham FC total(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2571714808747536384\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2568502079123492899\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"3\",\"outcome_name\":\"Liverpool FC\"},{\"event_id\":\"2568502079123492899\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.25)\",\"specifiers\":\"total=2.25\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.25\"},{\"event_id\":\"2568502079123492899\",\"market_id\":\"50036\",\"market_name\":\"Player cards (incl. overtime)(variant=dst:playerprops:254997:4632:259107)\",\"specifiers\":\"variant=dst:playerprops:254997:4632:259107\",\"outcome_id\":\"dst:playerprops:254997:4632:259107:39542565\",\"outcome_name\":\"Ibrahima Konate 1+\"},{\"event_id\":\"2568502079123492899\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=11.5)\",\"specifiers\":\"total=11.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 11.5\"}]}},{\"id\":\"2566625144005074944\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2564838563338399750\",\"market_id\":\"19\",\"market_name\":\"FC Porto total(total=1.5)\",\"specifiers\":\"total=1.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 1.5\"},{\"event_id\":\"2564838563338399750\",\"market_id\":\"1\",\"market_name\":\"1x2\",\"specifiers\":\"\",\"outcome_id\":\"1\",\"outcome_name\":\"FC Porto\"},{\"event_id\":\"2564838563338399750\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2564838563338399750\",\"market_id\":\"68\",\"market_name\":\"1st half - total(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2567381017434394624\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2541182715160571941\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=3.5)\",\"specifiers\":\"total=3.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 3.5\"},{\"event_id\":\"2541182715160571941\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=8.5)\",\"specifiers\":\"total=8.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 8.5\"},{\"event_id\":\"2541182715160571941\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2541182715160571941\",\"market_id\":\"150054\",\"market_name\":\"Total VAR(total=0.5)\",\"specifiers\":\"total=0.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 0.5\"}]}},{\"id\":\"2579676523644719104\",\"display_platform\":[\"mobile\",\"desktop\"],\"type\":\"line_banner\",\"view\":\"pre_built\",\"restrictions\":[],\"images\":null,\"details\":{\"locale\":{\"lang\":\"all\",\"country\":\"all\"},\"items\":[{\"event_id\":\"2570556914027077669\",\"market_id\":\"18\",\"market_name\":\"Total(total=2.5)\",\"specifiers\":\"total=2.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 2.5\"},{\"event_id\":\"2570556914027077669\",\"market_id\":\"166\",\"market_name\":\"Total corners(total=9.5)\",\"specifiers\":\"total=9.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 9.5\"},{\"event_id\":\"2570556914027077669\",\"market_id\":\"139\",\"market_name\":\"Total bookings(total=5.5)\",\"specifiers\":\"total=5.5\",\"outcome_id\":\"12\",\"outcome_name\":\"over 5.5\"},{\"event_id\":\"2570556914027077669\",\"market_id\":\"29\",\"market_name\":\"Both teams to score\",\"specifiers\":\"\",\"outcome_id\":\"74\",\"outcome_name\":\"yes\"}]}}]}}"
+          },
+          "redirectURL": "",
+          "headersSize": 593,
+          "bodySize": 22912
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 75,
+          "receive": 0
+        },
+        "time": 75,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:9000:2394:7400:4:5e63:1c80:93a1",
+        "connection": "443",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
