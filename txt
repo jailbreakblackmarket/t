@@ -1,8 +1,0 @@
-df -h
-sudo chmod 1777 /tmp
-rm -f ~/.Xauthority ~/.ICEauthority
-sudo apt update
-sudo apt install --reinstall xfce4-session xfce4 xfdesktop4 xfwm4 dbus-x11 xauth
-sudo adduser rebsijo
-sudo usermod -aG sudo rebsijo
-sudo systemctl restart lightdm
