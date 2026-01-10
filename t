@@ -1,1 +1,1 @@
-sudo journalctl -u lightdm -b --no-pager -n 200
+sudo -iu rebsijo tail -n 200 ~/.xsession-errors 2>/dev/null || echo "no ~/.xsession-errors"
