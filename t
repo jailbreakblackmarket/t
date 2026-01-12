@@ -1,2 +1,3 @@
-cp -a /root/betby_collector/collector.py /home/rebsijo/
-chown rebsijo:rebsijo /home/rebsijo/collector.py
+chmod +x /root/betby_collector/collector.py
+cd /root/betby_collector
+/usr/bin/python3 collector.py
