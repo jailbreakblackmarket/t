@@ -1,4 +1,3 @@
-mkdir -p /root/betby_collector
 nano /root/betby_collector/collector.py
 chmod +x /root/betby_collector/collector.py
 python3 -m pip install --upgrade pip
