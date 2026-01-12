@@ -1,43 +1,31 @@
-set -euo pipefail && \
-PYFILE="/root/betby_collector/collector.py" && \
-DB="/root/betby_collector/betby.sqlite3" && \
-LOG="/root/betby_collector/collector.log" && \
-mkdir -p /root/betby_collector && \
-touch "$LOG" && \
-python3 -m pip install -q --upgrade pip >/dev/null && \
-python3 -m pip install -q requests >/dev/null && \
-python3 - <<'PY'
-import sqlite3, os
-db="/root/betby_collector/betby.sqlite3"
-if not os.path.exists(db):
-    print("DB does not exist yet, nothing to migrate.")
-    raise SystemExit(0)
 
-conn=sqlite3.connect(db)
-try:
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS runs (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            ts_utc TEXT NOT NULL,
-            version INTEGER NOT NULL,
-            sport_id TEXT NOT NULL,
-            matched_event_count INTEGER NOT NULL
-        )
-    """)
-    cols = {r[1] for r in conn.execute("PRAGMA table_info(runs)").fetchall()}
-    if "stored_new_or_changed_count" not in cols:
-        conn.execute("ALTER TABLE runs ADD COLUMN stored_new_or_changed_count INTEGER NOT NULL DEFAULT 0")
-        conn.commit()
-        print("✅ Migrated runs table: added stored_new_or_changed_count")
-    else:
-        print("✅ runs table already has stored_new_or_changed_count")
-finally:
-    conn.close()
+set -euo pipefail && \
+echo "== whoami ==" && whoami && \
+echo "== python ==" && python3 --version && \
+echo "== requests installed? ==" && python3 - <<'PY'
+import requests
+print("OK: requests", requests.__version__)
 PY
-python3 /root/betby_collector/collector.py >> /root/betby_collector/collector.log 2>&1 || true && \
-python3 /root/betby_collector/collector.py --install-cron && \
-apt update -y >/dev/null && apt install -y cron >/dev/null && \
-systemctl enable --now cron >/dev/null && \
-crontab -l && \
-echo "✅ Fixed. DB: /root/betby_collector/betby.sqlite3  LOG: /root/betby_collector/collector.log" && \
-tail -n 30 /root/betby_collector/collector.log || true
+echo "== files exist? ==" && \
+ls -lah /root/betby_collector/collector.py && \
+touch /root/betby_collector/collector.log && \
+echo "== cron service status ==" && \
+systemctl is-enabled cron && systemctl is-active cron && \
+echo "== root crontab ==" && \
+(crontab -l || true) && \
+echo "== run collector once (writes to log) ==" && \
+SPORT_ID="323" DB_PATH="/root/betby_collector/betby.sqlite3" LOG_PATH="/root/betby_collector/collector.log" TIMEOUT_SECONDS="25" \
+python3 /root/betby_collector/collector.py >> /root/betby_collector/collector.log 2>&1 && \
+echo "== last lines of log ==" && \
+tail -n 30 /root/betby_collector/collector.log && \
+echo "== sqlite tables ==" && \
+sqlite3 /root/betby_collector/betby.sqlite3 ".tables" && \
+echo "== runs schema ==" && \
+sqlite3 /root/betby_collector/betby.sqlite3 "pragma table_info(runs);" && \
+echo "== last 5 runs ==" && \
+sqlite3 /root/betby_collector/betby.sqlite3 "select id, ts_utc, version, sport_id, matched_event_count, stored_new_or_changed_count from runs order by id desc limit 5;" && \
+echo "== latest events count ==" && \
+sqlite3 /root/betby_collector/betby.sqlite3 "select count(*) as events_latest_count from events_latest;" && \
+echo "== history rows count ==" && \
+sqlite3 /root/betby_collector/betby.sqlite3 "select count(*) as events_history_count from events_history;" && \
+echo "✅ ALL CHECKS PASSED"
