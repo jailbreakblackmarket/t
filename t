@@ -1,4 +1,3 @@
-sudo -i && \
 set -euo pipefail && \
 PYFILE="/root/betby_collector/collector.py" && \
 DB="/root/betby_collector/betby.sqlite3" && \
