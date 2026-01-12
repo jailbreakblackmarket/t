@@ -1,4 +1,5 @@
 
+set -euo pipefail && \
 DB="/root/betby_collector/betby.sqlite3" && \
 PYF="/root/betby_collector/collector.py" && \
 LOG="/root/betby_collector/collector.log" && \
