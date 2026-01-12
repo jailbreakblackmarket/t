@@ -1,4 +1,4 @@
-sudo -i && \
+
 apt update -y && apt install -y cron >/dev/null && \
 systemctl enable --now cron && \
 touch /root/betby_collector/collector.log && \
