@@ -1,5 +1,3 @@
-sudo -i && \
-set -uo pipefail && \
 echo "== whoami ==" && whoami && \
 echo "== python ==" && python3 --version && \
 echo "== quick network check ==" && \
