@@ -1,5 +1,4 @@
-sudo -i && \
-set -euo pipefail && \
+
 DB="/root/betby_collector/betby.sqlite3" && \
 LOG="/root/betby_collector/collector.log" && \
 echo "== stopping cron (temporary) ==" && (systemctl stop cron || true) && \
