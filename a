@@ -1,4 +1,13 @@
-sudo apt update
-sudo apt install -y python3 python3-pip
-python3 -m pip install -r requirements.txt
-python3 main.py
+bash -lc 'set -euo pipefail
+apt update -y >/dev/null && apt install -y python3-venv >/dev/null
+REPO_DIR="$( (find /root /opt -maxdepth 4 -type f -name requirements.txt 2>/dev/null | head -n1 | xargs -r dirname) || true )"
+[ -n "${REPO_DIR:-}" ] || { echo "Could not find requirements.txt under /root or /opt. cd into your repo and rerun."; exit 1; }
+cd "$REPO_DIR"
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip wheel >/dev/null
+python -m pip install -r requirements.txt
+[ -f main.py ] || { echo "main.py not found in $REPO_DIR. Files:"; ls; exit 1; }
+python main.py
+'
+bash -lc 'cd "$(find /root /opt -maxdepth 4 -type f -name requirements.txt 2>/dev/null | head -n1 | xargs -r dirname)" && ls'
