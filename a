@@ -1,4 +1,4 @@
-cd /selfbot.py
+cd selfbot.py
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
