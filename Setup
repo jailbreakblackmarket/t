@@ -1,0 +1,31 @@
+git clone https://github.com/AstraaDev/selfbot.py.git
+bash -lc '
+set -euo pipefail
+
+REPO_DIR="selfbot.py"   # <-- change this
+TOKEN=""
+PREFIX="´"
+REMOTE_USER="291595735118512129"
+
+cat > "$REPO_DIR/config/config.json" <<EOF
+{
+  "token": "$TOKEN",
+  "prefix": "$PREFIX",
+  "remote-users": ["$REMOTE_USER"],
+  "autoreply": {
+    "messages": [],
+    "channels": [],
+    "users": []
+  },
+  "afk": {
+    "enabled": true,
+    "message": "I am currently AFK. I will respond as soon as possible!"
+  },
+  "copycat": {
+    "users": []
+  }
+}
+EOF
+
+echo "Wrote: $REPO_DIR/config/config.json"
+'
