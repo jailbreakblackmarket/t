@@ -29,3 +29,5 @@ EOF
 
 echo "Wrote: $REPO_DIR/config/config.json"
 '
+$ python -m pip install -r requirements.txt
+$ python main.py
