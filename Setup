@@ -3,7 +3,7 @@ bash -lc '
 set -euo pipefail
 
 REPO_DIR="selfbot.py"   # <-- change this
-TOKEN=""
+TOKEN="MTEzMDgxMTg4MTYzMjg0NTk1Nw.GeMDHC.KU09Cy_-ivnK1DDOJ8oOprN-ooEeFnpXSW --36):):€/):)  --aQ"
 PREFIX="´"
 REMOTE_USER="291595735118512129"
 
