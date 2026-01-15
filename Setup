@@ -4,7 +4,7 @@ set -euo pipefail
 
 REPO_DIR="selfbot.py"   # <-- change this
 TOKEN=""
-PREFIX="´"
+PREFIX="*"
 REMOTE_USER="291595735118512129"
 
 cat > "$REPO_DIR/config/config.json" <<EOF
@@ -18,7 +18,7 @@ cat > "$REPO_DIR/config/config.json" <<EOF
     "users": []
   },
   "afk": {
-    "enabled": true,
+    "enabled": false,
     "message": "I am currently AFK. I will respond as soon as possible!"
   },
   "copycat": {
